@@ -1,0 +1,73 @@
+payload:
+
+  # === Telegram 官方域名 ===
+  - "+.telegram.org"
+  - "+.t.me"
+  - "+.telegram.me"
+  - "+.tdesktop.com"
+
+  # === Telegram API / 上传 / 文件 CDN ===
+  - "+.telegram-cdn.org"
+  - "+.cdn-telegram.org"
+  - "+.cdn-telegram.net"
+  - "+.cdn-telegram.com"
+  - "+.telegramusercontent.com"
+
+  # === Telegram Web 客户端 ===
+  - "+.web.telegram.org"
+  - "+.web.telegram.org.cn"
+
+  # === Telegram Desktop 客户端相关 ===
+  - "+.desktop.telegram.org"
+  - "+.updates.tdesktop.com"
+
+  # === Telegram Android 客户端更新源 ===
+  - "+.tg.dev"
+  - "+.tdata.me"
+
+  # === Telegram iOS TestFlight ===
+  - "+.testflight.apple.com"
+
+  # === 第三方客户端（Nekogram / Nicegram / Unigram 等）===
+  - "+.nicegram.app"
+  - "+.unigram.org"
+  - "+.unigram.me"
+  - "+.nekogram.app"
+  - "+.plusmessenger.org"
+  - "+.graph.org"
+
+  # === Telegram 服务 / Bot / 状态页 ===
+  - "+.telemetry.telegram.org"
+  - "+.telegram-status.com"
+
+  # === MTProto / 代理 / Relay 网络 ===
+  - "+.mtproxy.org"
+  - "+.mtproxy.me"
+  - "+.proxy.telegram.org"
+
+  # === 第三方 TG 生态（可选：文章 / 登录 / 统计）===
+  - "+.tgstat.com"
+  - "+.telegra.ph"
+  - "+.telegram.dog"
+
+  # --- Telegram 官方骨干网络（MTProto / DC 节点）---
+  - "IP-CIDR,91.108.0.0/16,no-resolve"
+  - "IP-CIDR,91.105.192.0/23,no-resolve"
+  - "IP-CIDR,95.161.64.0/20,no-resolve"
+  - "IP-CIDR,149.154.160.0/20,no-resolve"
+
+  # --- Telegram CDN / 媒体分发 ---
+  - "IP-CIDR,185.76.0.0/16,no-resolve"
+
+  # --- Cloudflare / 反代 / Bot 宿主（兜底）---
+  - "IP-CIDR,104.16.0.0/13,no-resolve"
+  - "IP-CIDR,172.64.0.0/13,no-resolve"
+  - "IP-CIDR,188.114.96.0/20,no-resolve"
+
+
+  # --- Telegram 官方 IPv6 ---
+  - "IP-CIDR6,2001:67c:4e8::/48,no-resolve"
+  - "IP-CIDR6,2a0a:f280::/32,no-resolve"
+
+  # --- Cloudflare / CDN IPv6（代理节点兜底）---
+  - "IP-CIDR6,2606:4700::/32,no-resolve"

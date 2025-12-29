@@ -1,0 +1,104 @@
+payload:
+
+  # === OpenAI / ChatGPT ===
+  - "+.openai.com"
+  - "+.chatgpt.com"
+  - "+.chat.openai.com"
+  - "+.ai.com"
+  - "+.sentry.io"
+
+  # API 域名
+  - "+.api.openai.com"
+  - "+.auth0.com"
+
+  # ChatGPT 资源
+  - "+.oaiusercontent.com"
+  - "+.openaipublic.blob.core.windows.net"
+
+  # OpenAI 平台 / 账单
+  - "+.platform.openai.com"
+  - "+.billing.openai.com"
+
+  # === Claude / Anthropic ===
+  - "+.anthropic.com"
+  - "+.claude.ai"
+  - "+.claudeusercontent.com"
+
+  # === Google Gemini (Bard) ===
+  - "+.ai.google"
+  - "+.deepmind.com"
+  - "+.bard.google.com"
+  - "+.gemini.google.com"
+
+  # === Microsoft Copilot / BingAI ===
+  - "+.copilot.microsoft.com"
+  - "+.bing.com"
+  - "+.copilotpro.microsoft.com"
+  - "+.copilot.live.com"
+
+  # === Perplexity AI ===
+  - "+.perplexity.ai"
+  - "+.pplx.ai"
+
+  # === Poe.com (Quora AI 平台) ===
+  - "+.poe.com"
+  - "+.p-static.net"
+
+  # === Character AI ===
+  - "+.character.ai"
+  - "+.characterai.io"
+
+  # === MidJourney（社区 & 图床）===
+  - "+.midjourney.com"
+  - "+.mj.gallery"
+
+  # === Leonardo AI ===
+  - "+.leonardo.ai"
+
+  # === Stable Diffusion / HuggingFace ===
+  - "+.huggingface.co"
+  - "+.huggingfaceusercontent.com"
+
+  # === Replicate AI ===
+  - "+.replicate.com"
+  - "+.replicate.delivery"
+
+  # === RunPod / AI 训练云 ===
+  - "+.runpod.io"
+
+  # === OpenRouter（多模型聚合）===
+  - "+.openrouter.ai"
+
+
+  # --- OpenAI / Cloudflare 相关 ---
+  - "IP-CIDR,104.16.0.0/13,no-resolve"
+  - "IP-CIDR,104.24.0.0/14,no-resolve"
+  - "IP-CIDR,172.64.0.0/13,no-resolve"
+  - "IP-CIDR,188.114.96.0/20,no-resolve"
+
+  # --- Google / Gemini ---
+  - "IP-CIDR,142.250.0.0/15,no-resolve"
+  - "IP-CIDR,172.217.0.0/16,no-resolve"
+  - "IP-CIDR,34.160.0.0/13,no-resolve"
+
+  # --- Microsoft / Copilot / Bing ---
+  - "IP-CIDR,13.64.0.0/11,no-resolve"
+  - "IP-CIDR,20.33.0.0/16,no-resolve"
+  - "IP-CIDR,40.64.0.0/10,no-resolve"
+
+  - "IP-CIDR,52.0.0.0/11,no-resolve"
+  - "IP-CIDR,54.64.0.0/11,no-resolve"
+
+
+  # --- Google / Gemini IPv6 ---
+  - "IP-CIDR6,2607:f8b0::/32,no-resolve"
+  - "IP-CIDR6,2404:6800::/32,no-resolve"
+
+  # --- Cloudflare / OpenAI 前置 WAF IPv6 ---
+  - "IP-CIDR6,2606:4700::/32,no-resolve"
+
+  # --- Microsoft / Copilot / Bing IPv6 ---
+  - "IP-CIDR6,2603:1000::/24,no-resolve"
+
+  # --- AWS / 通用云 IPv6 ---
+  - "IP-CIDR6,2600:1f00::/24,no-resolve"

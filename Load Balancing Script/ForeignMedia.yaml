@@ -67,5 +67,36 @@ payload:
   - "+.plex.tv"
   - "+.jellyfin.org"
 
-  # === Others（预留扩展）===
-  # - "+.example-media.com"
+
+  # --- Google / YouTube CDN ---
+  - "IP-CIDR,142.250.0.0/15,no-resolve"
+  - "IP-CIDR,172.217.0.0/16,no-resolve"
+  - "IP-CIDR,34.160.0.0/13,no-resolve"
+
+  # --- Netflix 自有网络 / Open Connect ---
+  - "IP-CIDR,52.89.0.0/16,no-resolve"
+  - "IP-CIDR,52.93.0.0/16,no-resolve"
+
+  # --- Amazon Prime / AWS Media ---
+  - "IP-CIDR,54.192.0.0/16,no-resolve"
+  - "IP-CIDR,52.84.0.0/15,no-resolve"
+
+  # --- Twitch CDN ---
+  - "IP-CIDR,151.101.0.0/16,no-resolve"
+
+  # --- TikTok / ByteDance Global ---
+  - "IP-CIDR,47.246.0.0/16,no-resolve"
+  - "IP-CIDR,36.155.0.0/16,no-resolve"
+
+  # --- Google / YouTube IPv6 ---
+  - "IP-CIDR6,2607:f8b0::/32,no-resolve"
+  - "IP-CIDR6,2404:6800::/32,no-resolve"
+
+  # --- Cloudflare / Peacock / Plex 前置 ---
+  - "IP-CIDR6,2606:4700::/32,no-resolve"
+
+  # --- AWS / Prime Video / Netflix 托管 ---
+  - "IP-CIDR6,2600:1f00::/24,no-resolve"
+
+  # --- TikTok / ByteDance Global IPv6 ---
+  - "IP-CIDR6,2402:4e00::/32,no-resolve"

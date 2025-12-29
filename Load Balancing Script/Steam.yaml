@@ -1,0 +1,56 @@
+payload:
+
+
+  # === Steam 主站 / 商店 ===
+  - "+.steampowered.com"
+  - "+.store.steampowered.com"
+  - "+.help.steampowered.com"
+  - "+.checkout.steampowered.com"
+
+  # === Steam 社区 / 好友 / 资料 / 市场 ===
+  - "+.steamcommunity.com"
+  - "+.steamcommunity-a.akamaihd.net"
+
+  # === Steam 客户端 / 下载 / 内容分发 ===
+  - "+.steamcontent.com"
+  - "+.steamserver.net"
+  - "+.steamstatic.com"
+  - "+.steamusercontent.com"
+  - "+.steampipe.steamcontent.com"
+
+  # === Steam 聊天 / 好友系统 ===
+  - "+.steam-chat.com"
+
+  # === Valve 相关（Dota2 / CS 等）===
+  - "+.valvesoftware.com"
+  - "+.valve.net"
+
+  # === 历史 / CDN / 保底 ===
+  - "+.steamgames.com"
+  - "+.akamaized.net"
+
+  # --- Valve / Steam 主网络 ---
+  - "IP-CIDR,146.66.0.0/15,no-resolve"
+  - "IP-CIDR,162.254.192.0/18,no-resolve"
+  - "IP-CIDR,208.64.200.0/21,no-resolve"
+
+  # --- Steam Download / Content Servers ---
+  - "IP-CIDR,103.10.124.0/23,no-resolve"
+  - "IP-CIDR,104.91.0.0/16,no-resolve"
+  - "IP-CIDR,23.32.0.0/11,no-resolve"   # Akamai CDN
+
+  # --- Steam China / 合作节点（兜底）---
+  - "IP-CIDR,101.199.0.0/16,no-resolve"
+  - "IP-CIDR,106.11.0.0/16,no-resolve"
+
+  # --- Valve IPv6 / Steam Backbone ---
+  - "IP-CIDR6,2600:1f14::/32,no-resolve"
+  - "IP-CIDR6,2a03:2880::/29,no-resolve"
+
+  # --- Akamai / Global CDN IPv6 ---
+  - "IP-CIDR6,2600:1400::/24,no-resolve"
+  - "IP-CIDR6,2606:2800::/32,no-resolve"
+
+  # --- China region partner nodes（兜底）---
+  - "IP-CIDR6,2408:4003::/32,no-resolve"
+  - "IP-CIDR6,2402:4e00::/32,no-resolve"

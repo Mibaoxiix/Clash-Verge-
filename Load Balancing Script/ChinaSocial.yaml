@@ -1,0 +1,80 @@
+payload:
+
+
+  # === 微信 WeChat ===
+  - "+.wechat.com"
+  - "+.weixin.qq.com"
+  - "+.wx.qq.com"
+  - "+.qpic.cn"
+  - "+.weixinbridge.com"
+
+  # === QQ / TIM ===
+  - "+.qq.com"
+  - "+.qlogo.cn"
+  - "+.qmail.com"
+  - "+.myqcloud.com"
+  - "+.gtimg.cn"
+  - "+.qqmail.com"
+
+  # === QQ 空间 / 头像 CDN ===
+  - "+.qzone.qq.com"
+  - "+.qpic.cn"
+  - "+.qlogo.cn"
+
+  # === 微博 Weibo ===
+  - "+.weibo.com"
+  - "+.weibo.cn"
+  - "+.sinaimg.cn"
+  - "+.sinaimg.com"
+  - "+.weibocdn.com"
+
+  # === 知乎 Zhihu ===
+  - "+.zhihu.com"
+  - "+.zhimg.com"
+
+  # === 小红书 RED ===
+  - "+.xiaohongshu.com"
+  - "+.xiaohongshu.net"
+  - "+.xhslink.com"
+
+  # === 百度贴吧 / 吧内资源 ===
+  - "+.tieba.baidu.com"
+  - "+.tbcdn.cn"
+
+  # === 快手 Kuaishou ===
+  - "+.kuaishou.com"
+  - "+.yximgs.com"
+  - "+.ksapisrv.com"
+
+  # === Soul / 陌生人社交 ===
+  - "+.soulapp.cn"
+  - "+.soulapp.me"
+
+  # === 人人 / 豆瓣（社交属性较强）===
+  - "+.douban.com"
+  - "+.doubanio.com"
+  - "+.renren.com"
+
+  # --- Tencent / WeChat / QQ / Qzone ---
+  - "IP-CIDR,14.215.0.0/16,no-resolve"
+  - "IP-CIDR,119.147.0.0/16,no-resolve"
+  - "IP-CIDR,203.205.0.0/16,no-resolve"
+
+  # --- Weibo / Sina ---
+  - "IP-CIDR,123.125.0.0/16,no-resolve"
+  - "IP-CIDR,180.149.134.0/24,no-resolve"
+
+  # --- Zhihu / 部分云托管 ---
+  - "IP-CIDR,118.89.0.0/16,no-resolve"
+  - "IP-CIDR,39.98.0.0/15,no-resolve"
+
+  # --- Kuaishou / 小红书 / 其他视频社交 使用的云/CDN 段（阿里/自建等）---
+  - "IP-CIDR,47.246.0.0/16,no-resolve"
+  - "IP-CIDR,36.155.0.0/16,no-resolve"
+  # --- Tencent / WeChat / QQ IPv6 ---
+  - "IP-CIDR6,240e:ff:f000::/36,no-resolve"
+
+  # --- 大型内容/社交平台常用 IPv6 段（运营商+云）---
+  - "IP-CIDR6,2408:4003::/32,no-resolve"
+  - "IP-CIDR6,2409:8c00::/32,no-resolve"
+  - "IP-CIDR6,2402:4e00::/32,no-resolve"

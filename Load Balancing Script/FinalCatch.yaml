@@ -1,0 +1,12 @@
+payload:
+
+  # === 域名兜底（匹配所有域名及子域）===
+  - "DOMAIN-SUFFIX,."
+  - "DOMAIN-KEYWORD,."
+  - "DOMAIN,."
+
+  # === IPv4 全网兜底 ===
+  - "IP-CIDR,0.0.0.0/0,no-resolve"
+
+  # === IPv6 全网兜底 ===
+  - "IP-CIDR6,::/0,no-resolve"
