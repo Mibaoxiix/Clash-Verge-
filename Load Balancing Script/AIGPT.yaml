@@ -1,73 +1,73 @@
 payload:
 
   # === OpenAI / ChatGPT ===
-  - "+.openai.com"
-  - "+.chatgpt.com"
-  - "+.chat.openai.com"
-  - "+.ai.com"
-  - "+.sentry.io"
+  - "DOMAIN-SUFFIX,openai.com"
+  - "DOMAIN-SUFFIX,chatgpt.com"
+  - "DOMAIN-SUFFIX,chat.openai.com"
+  - "DOMAIN-SUFFIX,ai.com"
+  - "DOMAIN-SUFFIX,sentry.io"
 
   # API 域名
-  - "+.api.openai.com"
-  - "+.auth0.com"
+  - "DOMAIN-SUFFIX,api.openai.com"
+  - "DOMAIN-SUFFIX,auth0.com"
 
   # ChatGPT 资源
-  - "+.oaiusercontent.com"
-  - "+.openaipublic.blob.core.windows.net"
+  - "DOMAIN-SUFFIX,oaiusercontent.com"
+  - "DOMAIN-SUFFIX,openaipublic.blob.core.windows.net"
 
   # OpenAI 平台 / 账单
-  - "+.platform.openai.com"
-  - "+.billing.openai.com"
+  - "DOMAIN-SUFFIX,platform.openai.com"
+  - "DOMAIN-SUFFIX,billing.openai.com"
 
   # === Claude / Anthropic ===
-  - "+.anthropic.com"
-  - "+.claude.ai"
-  - "+.claudeusercontent.com"
+  - "DOMAIN-SUFFIX,anthropic.com"
+  - "DOMAIN-SUFFIX,claude.ai"
+  - "DOMAIN-SUFFIX,claudeusercontent.com"
 
   # === Google Gemini (Bard) ===
-  - "+.ai.google"
-  - "+.deepmind.com"
-  - "+.bard.google.com"
-  - "+.gemini.google.com"
+  - "DOMAIN-SUFFIX,ai.google"
+  - "DOMAIN-SUFFIX,deepmind.com"
+  - "DOMAIN-SUFFIX,bard.google.com"
+  - "DOMAIN-SUFFIX,gemini.google.com"
 
   # === Microsoft Copilot / BingAI ===
-  - "+.copilot.microsoft.com"
-  - "+.bing.com"
-  - "+.copilotpro.microsoft.com"
-  - "+.copilot.live.com"
+  - "DOMAIN-SUFFIX,copilot.microsoft.com"
+  - "DOMAIN-SUFFIX,bing.com"
+  - "DOMAIN-SUFFIX,copilotpro.microsoft.com"
+  - "DOMAIN-SUFFIX,copilot.live.com"
 
   # === Perplexity AI ===
-  - "+.perplexity.ai"
-  - "+.pplx.ai"
+  - "DOMAIN-SUFFIX,perplexity.ai"
+  - "DOMAIN-SUFFIX,pplx.ai"
 
   # === Poe.com (Quora AI 平台) ===
-  - "+.poe.com"
-  - "+.p-static.net"
+  - "DOMAIN-SUFFIX,poe.com"
+  - "DOMAIN-SUFFIX,p-static.net"
 
   # === Character AI ===
-  - "+.character.ai"
-  - "+.characterai.io"
+  - "DOMAIN-SUFFIX,character.ai"
+  - "DOMAIN-SUFFIX,characterai.io"
 
   # === MidJourney（社区 & 图床）===
-  - "+.midjourney.com"
-  - "+.mj.gallery"
+  - "DOMAIN-SUFFIX,midjourney.com"
+  - "DOMAIN-SUFFIX,mj.gallery"
 
   # === Leonardo AI ===
-  - "+.leonardo.ai"
+  - "DOMAIN-SUFFIX,leonardo.ai"
 
   # === Stable Diffusion / HuggingFace ===
-  - "+.huggingface.co"
-  - "+.huggingfaceusercontent.com"
+  - "DOMAIN-SUFFIX,huggingface.co"
+  - "DOMAIN-SUFFIX,huggingfaceusercontent.com"
 
   # === Replicate AI ===
-  - "+.replicate.com"
-  - "+.replicate.delivery"
+  - "DOMAIN-SUFFIX,replicate.com"
+  - "DOMAIN-SUFFIX,replicate.delivery"
 
   # === RunPod / AI 训练云 ===
-  - "+.runpod.io"
+  - "DOMAIN-SUFFIX,runpod.io"
 
   # === OpenRouter（多模型聚合）===
-  - "+.openrouter.ai"
+  - "DOMAIN-SUFFIX,openrouter.ai"
 
 
   # --- OpenAI / Cloudflare 相关 ---
@@ -85,7 +85,6 @@ payload:
   - "IP-CIDR,13.64.0.0/11,no-resolve"
   - "IP-CIDR,20.33.0.0/16,no-resolve"
   - "IP-CIDR,40.64.0.0/10,no-resolve"
-
   - "IP-CIDR,52.0.0.0/11,no-resolve"
   - "IP-CIDR,54.64.0.0/11,no-resolve"
 
