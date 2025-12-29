@@ -1,79 +1,87 @@
 payload:
 
+  # =========================
+  #  国外媒体（域名规则）
+  # =========================
+
   # === YouTube / Google Video ===
-  - "+.youtube.com"
-  - "+.googlevideo.com"
-  - "+.ytimg.com"
-  - "+.youtubei.googleapis.com"
-  - "+.youtu.be"
+  - "DOMAIN-SUFFIX,youtube.com"
+  - "DOMAIN-SUFFIX,googlevideo.com"
+  - "DOMAIN-SUFFIX,ytimg.com"
+  - "DOMAIN-SUFFIX,youtubei.googleapis.com"
+  - "DOMAIN-SUFFIX,youtu.be"
 
   # === Netflix ===
-  - "+.netflix.com"
-  - "+.netflix.net"
-  - "+.nflxvideo.net"
-  - "+.nflximg.net"
-  - "+.nflxso.net"
-  - "+.nflxext.com"
+  - "DOMAIN-SUFFIX,netflix.com"
+  - "DOMAIN-SUFFIX,netflix.net"
+  - "DOMAIN-SUFFIX,nflxvideo.net"
+  - "DOMAIN-SUFFIX,nflximg.net"
+  - "DOMAIN-SUFFIX,nflxso.net"
+  - "DOMAIN-SUFFIX,nflxext.com"
 
   # === Disney+ ===
-  - "+.disneyplus.com"
-  - "+.bamgrid.com"
-  - "+.disney-plus.net"
-  - "+.dssott.com"
+  - "DOMAIN-SUFFIX,disneyplus.com"
+  - "DOMAIN-SUFFIX,bamgrid.com"
+  - "DOMAIN-SUFFIX,disney-plus.net"
+  - "DOMAIN-SUFFIX,dssott.com"
 
   # === Spotify ===
-  - "+.spotify.com"
-  - "+.scdn.co"
-  - "+.spotifycdn.com"
+  - "DOMAIN-SUFFIX,spotify.com"
+  - "DOMAIN-SUFFIX,scdn.co"
+  - "DOMAIN-SUFFIX,spotifycdn.com"
 
   # === TikTok ===
-  - "+.tiktok.com"
-  - "+.tiktokcdn.com"
-  - "+.tiktokv.com"
-  - "+.ibytedtos.com"
-  - "+.byteoversea.com"
-  - "+.bytedance.com"
+  - "DOMAIN-SUFFIX,tiktok.com"
+  - "DOMAIN-SUFFIX,tiktokcdn.com"
+  - "DOMAIN-SUFFIX,tiktokv.com"
+  - "DOMAIN-SUFFIX,ibytedtos.com"
+  - "DOMAIN-SUFFIX,byteoversea.com"
+  - "DOMAIN-SUFFIX,bytedance.com"
 
   # === HBO Max ===
-  - "+.hbomax.com"
-  - "+.hbo.com"
-  - "+.hbonow.com"
+  - "DOMAIN-SUFFIX,hbomax.com"
+  - "DOMAIN-SUFFIX,hbo.com"
+  - "DOMAIN-SUFFIX,hbonow.com"
 
   # === Amazon Prime Video ===
-  - "+.primevideo.com"
-  - "+.amazonvideo.com"
-  - "+.media-amazon.com"
+  - "DOMAIN-SUFFIX,primevideo.com"
+  - "DOMAIN-SUFFIX,amazonvideo.com"
+  - "DOMAIN-SUFFIX,media-amazon.com"
 
   # === Hulu ===
-  - "+.hulu.com"
-  - "+.huluim.com"
+  - "DOMAIN-SUFFIX,hulu.com"
+  - "DOMAIN-SUFFIX,huluim.com"
 
   # === Paramount+ ===
-  - "+.paramountplus.com"
-  - "+.cbsi.com"
+  - "DOMAIN-SUFFIX,paramountplus.com"
+  - "DOMAIN-SUFFIX,cbsi.com"
 
-  # === Crunchyroll / 动漫流媒体 ===
-  - "+.crunchyroll.com"
-  - "+.vrv.co"
+  # === Crunchyroll ===
+  - "DOMAIN-SUFFIX,crunchyroll.com"
+  - "DOMAIN-SUFFIX,vrv.co"
 
   # === Twitch ===
-  - "+.twitch.tv"
-  - "+.ttvnw.net"
+  - "DOMAIN-SUFFIX,twitch.tv"
+  - "DOMAIN-SUFFIX,ttvnw.net"
 
   # === Peacock ===
-  - "+.peacocktv.com"
+  - "DOMAIN-SUFFIX,peacocktv.com"
 
-  # === Plex / Jellyfin（海外常见媒体平台）===
-  - "+.plex.tv"
-  - "+.jellyfin.org"
+  # === Plex / Jellyfin ===
+  - "DOMAIN-SUFFIX,plex.tv"
+  - "DOMAIN-SUFFIX,jellyfin.org"
 
+
+  # =========================
+  #  IPv4 CDN / 媒体网络段
+  # =========================
 
   # --- Google / YouTube CDN ---
   - "IP-CIDR,142.250.0.0/15,no-resolve"
   - "IP-CIDR,172.217.0.0/16,no-resolve"
   - "IP-CIDR,34.160.0.0/13,no-resolve"
 
-  # --- Netflix 自有网络 / Open Connect ---
+  # --- Netflix Open Connect ---
   - "IP-CIDR,52.89.0.0/16,no-resolve"
   - "IP-CIDR,52.93.0.0/16,no-resolve"
 
@@ -88,11 +96,16 @@ payload:
   - "IP-CIDR,47.246.0.0/16,no-resolve"
   - "IP-CIDR,36.155.0.0/16,no-resolve"
 
+
+  # =========================
+  #  IPv6 CDN / 媒体网络段
+  # =========================
+
   # --- Google / YouTube IPv6 ---
   - "IP-CIDR6,2607:f8b0::/32,no-resolve"
   - "IP-CIDR6,2404:6800::/32,no-resolve"
 
-  # --- Cloudflare / Peacock / Plex 前置 ---
+  # --- Cloudflare（Peacock / Plex 等前置）---
   - "IP-CIDR6,2606:4700::/32,no-resolve"
 
   # --- AWS / Prime Video / Netflix 托管 ---
