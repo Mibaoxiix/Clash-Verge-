@@ -1,0 +1,71 @@
+payload:
+
+  # === YouTube / Google Video ===
+  - "+.youtube.com"
+  - "+.googlevideo.com"
+  - "+.ytimg.com"
+  - "+.youtubei.googleapis.com"
+  - "+.youtu.be"
+
+  # === Netflix ===
+  - "+.netflix.com"
+  - "+.netflix.net"
+  - "+.nflxvideo.net"
+  - "+.nflximg.net"
+  - "+.nflxso.net"
+  - "+.nflxext.com"
+
+  # === Disney+ ===
+  - "+.disneyplus.com"
+  - "+.bamgrid.com"
+  - "+.disney-plus.net"
+  - "+.dssott.com"
+
+  # === Spotify ===
+  - "+.spotify.com"
+  - "+.scdn.co"
+  - "+.spotifycdn.com"
+
+  # === TikTok ===
+  - "+.tiktok.com"
+  - "+.tiktokcdn.com"
+  - "+.tiktokv.com"
+  - "+.ibytedtos.com"
+  - "+.byteoversea.com"
+  - "+.bytedance.com"
+
+  # === HBO Max ===
+  - "+.hbomax.com"
+  - "+.hbo.com"
+  - "+.hbonow.com"
+
+  # === Amazon Prime Video ===
+  - "+.primevideo.com"
+  - "+.amazonvideo.com"
+  - "+.media-amazon.com"
+
+  # === Hulu ===
+  - "+.hulu.com"
+  - "+.huluim.com"
+
+  # === Paramount+ ===
+  - "+.paramountplus.com"
+  - "+.cbsi.com"
+
+  # === Crunchyroll / 动漫流媒体 ===
+  - "+.crunchyroll.com"
+  - "+.vrv.co"
+
+  # === Twitch ===
+  - "+.twitch.tv"
+  - "+.ttvnw.net"
+
+  # === Peacock ===
+  - "+.peacocktv.com"
+
+  # === Plex / Jellyfin（海外常见媒体平台）===
+  - "+.plex.tv"
+  - "+.jellyfin.org"
+
+  # === Others（预留扩展）===
+  # - "+.example-media.com"
