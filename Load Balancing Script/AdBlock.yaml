@@ -1,97 +1,98 @@
 payload:
 
-  - "+.adsystem.com"
-  - "+.adservice.google.com"
-  - "+.doubleclick.net"
-  - "+.googlesyndication.com"
-  - "+.googleadservices.com"
-  - "+.googletagmanager.com"
-  - "+.googletagservices.com"
-  - "+.google-analytics.com"
-  - "+.analytics.google.com"
-  - "+.gstaticads.com"
-  - "+.ads-twitter.com"
+  # === 通用广告 / Tracking ===
+  - "DOMAIN-SUFFIX,adsystem.com"
+  - "DOMAIN-SUFFIX,adservice.google.com"
+  - "DOMAIN-SUFFIX,doubleclick.net"
+  - "DOMAIN-SUFFIX,googlesyndication.com"
+  - "DOMAIN-SUFFIX,googleadservices.com"
+  - "DOMAIN-SUFFIX,googletagmanager.com"
+  - "DOMAIN-SUFFIX,googletagservices.com"
+  - "DOMAIN-SUFFIX,google-analytics.com"
+  - "DOMAIN-SUFFIX,analytics.google.com"
+  - "DOMAIN-SUFFIX,gstaticads.com"
+  - "DOMAIN-SUFFIX,ads-twitter.com"
 
   # === 国内广告平台 ===
-  - "+.cnzz.com"
-  - "+.umeng.com"
-  - "+.umengcloud.com"
-  - "+.umtrack.com"
-  - "+.alicdn.com"
-  - "+.tanx.com"
-  - "+.alimama.com"
+  - "DOMAIN-SUFFIX,cnzz.com"
+  - "DOMAIN-SUFFIX,umeng.com"
+  - "DOMAIN-SUFFIX,umengcloud.com"
+  - "DOMAIN-SUFFIX,umtrack.com"
+  - "DOMAIN-SUFFIX,alicdn.com"
+  - "DOMAIN-SUFFIX,tanx.com"
+  - "DOMAIN-SUFFIX,alimama.com"
 
   # === 字节跳动广告 / 统计 ===
-  - "+.bytedance.com"
-  - "+.byteactivity.com"
-  - "+.snssdk.com"
-  - "+.ixigua.com"
-  - "+.pangolin-snssdk.com"
+  - "DOMAIN-SUFFIX,bytedance.com"
+  - "DOMAIN-SUFFIX,byteactivity.com"
+  - "DOMAIN-SUFFIX,snssdk.com"
+  - "DOMAIN-SUFFIX,ixigua.com"
+  - "DOMAIN-SUFFIX,pangolin-snssdk.com"
 
   # === 腾讯广告 / 统计 ===
-  - "+.tencentad.com"
-  - "+.ad.qq.com"
-  - "+.beacon.qq.com"
-  - "+.mta.qq.com"
+  - "DOMAIN-SUFFIX,tencentad.com"
+  - "DOMAIN-SUFFIX,ad.qq.com"
+  - "DOMAIN-SUFFIX,beacon.qq.com"
+  - "DOMAIN-SUFFIX,mta.qq.com"
 
   # === 百度广告 / 推广 ===
-  - "+.hm.baidu.com"
-  - "+.cpro.baidu.com"
-  - "+.union.baidu.com"
-  - "+.baidustatic.com"
+  - "DOMAIN-SUFFIX,hm.baidu.com"
+  - "DOMAIN-SUFFIX,cpro.baidu.com"
+  - "DOMAIN-SUFFIX,union.baidu.com"
+  - "DOMAIN-SUFFIX,baidustatic.com"
 
   # === 小米 / 华为 / 系统广告推送 ===
-  - "+.ad.xiaomi.com"
-  - "+.tracking.miui.com"
-  - "+.push.hicloud.com"
-  - "+.log.hicloud.com"
+  - "DOMAIN-SUFFIX,ad.xiaomi.com"
+  - "DOMAIN-SUFFIX,tracking.miui.com"
+  - "DOMAIN-SUFFIX,push.hicloud.com"
+  - "DOMAIN-SUFFIX,log.hicloud.com"
 
   # === 应用统计 / 行为采集 ===
-  - "+.app-measurement.com"
-  - "+.adjust.com"
-  - "+.appsflyer.com"
-  - "+.kochava.com"
-  - "+.bugly.qq.com"
-  - "+.sentry.io"
+  - "DOMAIN-SUFFIX,app-measurement.com"
+  - "DOMAIN-SUFFIX,adjust.com"
+  - "DOMAIN-SUFFIX,appsflyer.com"
+  - "DOMAIN-SUFFIX,kochava.com"
+  - "DOMAIN-SUFFIX,bugly.qq.com"
+  - "DOMAIN-SUFFIX,sentry.io"
 
   # === 恶意跳转 / 站外推广 ===
-  - "+.popads.net"
-  - "+.admob.com"
-  - "+.zedo.com"
-  - "+.taboola.com"
-  - "+.outbrain.com"
+  - "DOMAIN-SUFFIX,popads.net"
+  - "DOMAIN-SUFFIX,admob.com"
+  - "DOMAIN-SUFFIX,zedo.com"
+  - "DOMAIN-SUFFIX,taboola.com"
+  - "DOMAIN-SUFFIX,outbrain.com"
 
   # === 视频站点内嵌广告源 ===
-  - "+.ads.youku.com"
-  - "+.acjs.aliyun.com"
-  - "+.atm.youku.com"
+  - "DOMAIN-SUFFIX,ads.youku.com"
+  - "DOMAIN-SUFFIX,acjs.aliyun.com"
+  - "DOMAIN-SUFFIX,atm.youku.com"
 
 
   # =========================
   #  IPv4 广告 / 统计 网络段
   # =========================
-  - "IP-CIDR,172.217.0.0/16,no-resolve"        # Google Ads / GTag
+  - "IP-CIDR,172.217.0.0/16,no-resolve"
   - "IP-CIDR,142.250.0.0/15,no-resolve"
   - "IP-CIDR,34.160.0.0/13,no-resolve"
 
-  - "IP-CIDR,52.84.0.0/15,no-resolve"          # Amazon / Ad CDN
+  - "IP-CIDR,52.84.0.0/15,no-resolve"
   - "IP-CIDR,54.192.0.0/16,no-resolve"
 
-  - "IP-CIDR,203.205.0.0/16,no-resolve"        # Tencent Tracking
+  - "IP-CIDR,203.205.0.0/16,no-resolve"
   - "IP-CIDR,119.147.0.0/16,no-resolve"
 
-  - "IP-CIDR,36.155.0.0/16,no-resolve"         # Umeng / CNZZ
+  - "IP-CIDR,36.155.0.0/16,no-resolve"
   - "IP-CIDR,47.246.0.0/16,no-resolve"
 
 
   # =========================
   #  IPv6 广告 / 统计 网络段
   # =========================
-  - "IP-CIDR6,2404:6800::/32,no-resolve"       # Google Ads
+  - "IP-CIDR6,2404:6800::/32,no-resolve"
   - "IP-CIDR6,2607:f8b0::/32,no-resolve"
 
-  - "IP-CIDR6,2406:da14::/32,no-resolve"       # Alibaba / Umeng
+  - "IP-CIDR6,2406:da14::/32,no-resolve"
   - "IP-CIDR6,2408:4003::/32,no-resolve"
 
-  - "IP-CIDR6,240e:ff:f000::/36,no-resolve"    # Tencent Network
+  - "IP-CIDR6,240e:ff:f000::/36,no-resolve"
   - "IP-CIDR6,2402:4e00::/32,no-resolve"
