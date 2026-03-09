@@ -85,3 +85,7 @@ payload:
 
   # === 网易云音乐 客户端 ===
   - "PROCESS-NAME,网易云音乐.exe"
+  # === 抖音客户端 ===
+  - "PROCESS-NAME,douyin.exe"
+  - "PROCESS-NAME,Douyin.exe"
+  - "PROCESS-NAME,douyin_launcher.exe"
